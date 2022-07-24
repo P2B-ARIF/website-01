@@ -1,0 +1,38 @@
+.container{
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+:root{
+    --primary: #613fdf;
+    --secondary:#040450;
+    --dark:black;
+    --light:#c1c1c1;
+    --ternary:#181818;
+    --pure:white;
+    --white90:#ece9e9;
+    --border:#4328db;
+    --green:#52ea20;
+}
+.btn{
+    padding: 10px 30px;
+    border: 2px solid var(--green);
+    border-radius: 5px;
+    color:var(--green);
+    background: transparent;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-primary{
+    padding: 10px 30px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color:var(--pure);
+    background: var(--primary);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+img{
+    width: 200px;
+}
