@@ -180,7 +180,7 @@ header .home-page .right .image-3{
     bottom: -30%;
     left: 60%;
     width: 250px;
-    animation: img3 4s ease-in-out 0s infinite alternate;
+    animation: img3 s ease-in-out 0s infinite alternate;
 }
 @keyframes img3 {
     from{
@@ -240,7 +240,7 @@ header .home-page .right .comment-1{
     top: 50%;
     left: -20%;
     transition: .3s ease-in-out;
-    animation: img4 2s ease-in-out 0s infinite alternate;
+    animation: img4 5s ease-in-out 0s infinite alternate;
 }
 @keyframes img4 {
     from{
@@ -255,6 +255,7 @@ header .home-page .right .comment-1 .left-img img{
     width: 50px;
     height: 50px;
     margin-right: .5rem;
+    border-radius: 50%;
 }
 header .home-page .right .comment-1 .right-text{
     font-size: .7rem;
@@ -276,7 +277,7 @@ header .home-page .right .comment-2{
     left: 10%;
     z-index: 1;
     border-radius: 5px;
-    animation: img5 2s ease-in-out 0s infinite alternate;
+    animation: img5 5s ease-in-out 0s infinite alternate;
 }
 @keyframes img5 {
     from{
@@ -314,7 +315,7 @@ header .home-page .right .comment-3{
     padding-right: 1.5rem;
     border-radius: 5px;
     width: 200px;
-    animation: img6 2s ease-in-out 0s infinite alternate;
+    animation: img6 5s ease-in-out 0s infinite alternate;
 }
 @keyframes img6 {
     from{
